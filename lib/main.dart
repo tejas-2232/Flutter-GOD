@@ -13,6 +13,7 @@ void main() => runApp(MaterialApp(
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text('click'),
+          backgroundColor: Colors.black54,
         ),
       ),
     ));
