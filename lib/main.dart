@@ -8,12 +8,20 @@ void main() => runApp(MaterialApp(
           backgroundColor: Colors.amber,
         ),
         body: Center(
-          child: Text("Hello boys"),
+          child: Text(
+            'BMW MOTORS',
+            style: TextStyle(
+              fontSize: 40,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 3.0,
+              color: Colors.grey[600],
+            ),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text('click'),
-          backgroundColor: Colors.black54,
+          backgroundColor: Colors.orange,
         ),
       ),
     ));
