@@ -1,6 +1,7 @@
-# flutter_journey
+# Flutter Journey
 
-A new Flutter project.
+A new Flutter project <br>
+Here I am commiting my flutter development Journey
 
 ## Getting Started
 
@@ -14,3 +15,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## some concepts to keep in MinD
+
+__Stateless Widgets:__ The state of the widget cannot change over time <br>
+*Example:* The layout,colors,or any data that we use inside that widget.
+
+__Stateful Widgets:__ The state of the widget can change over time <br>
+*Example:* The layouts,colors,or any data that we use inside that widget can be changed
+
