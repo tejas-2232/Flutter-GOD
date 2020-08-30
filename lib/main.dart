@@ -11,11 +11,11 @@ void main() => runApp(MaterialApp(
           child: Text(
             'BMW MOTORS',
             style: TextStyle(
-              fontSize: 40,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 3.0,
-              color: Colors.grey[600],
-            ),
+                fontSize: 40,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 3.0,
+                color: Colors.grey[600],
+                fontFamily: 'IndieFlower'),
           ),
         ),
         floatingActionButton: FloatingActionButton(
