@@ -12,10 +12,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber,
       ),
       body: Center(
-          child: Image(
-        image: NetworkImage(
-            'https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60'),
-      )),
+        child: Icon(Icons.airport_shuttle),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('add'),
