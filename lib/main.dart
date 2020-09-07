@@ -14,10 +14,10 @@ class Home extends StatelessWidget {
       body: Center(
           child: RaisedButton.icon(
               onPressed: () {
-                print("you clicked the alarm button");
+                print("you clicked the button");
               },
-              icon: Icon(Icons.access_alarms),
-              label: Text('access'))),
+              icon: Icon(Icons.shutter_speed),
+              label: Text('speed'))),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('add'),
