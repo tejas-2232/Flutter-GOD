@@ -16,8 +16,8 @@ class Home extends StatelessWidget {
               onPressed: () {
                 print("you clicked the alarm button");
               },
-              icon: Icon(Icons.alarm),
-              label: Text('added alarm'))),
+              icon: Icon(Icons.access_alarms),
+              label: Text('access'))),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('add'),
