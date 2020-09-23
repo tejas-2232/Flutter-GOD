@@ -15,10 +15,12 @@ class Home extends StatelessWidget {
         child: Icon(Icons.airport_shuttle, size: 200.0),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Text('add'),
-        backgroundColor: Colors.orange,
-      ),
+          onPressed: () {},
+          child: Text('add'),
+          backgroundColor: Colors.black12),
     );
   }
 }
+
+// remaining command : after advised from san jose
+//DO: git pull origin master
