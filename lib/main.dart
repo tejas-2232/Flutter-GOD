@@ -12,8 +12,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber,
       ),
       body: Center(
-        child: Icon(Icons.airport_shuttle, size: 200.0),
-      ),
+          child: RaisedButton.icon(
+              onPressed: () {
+                print("you clicked the button");
+              },
+              icon: Icon(Icons.shutter_speed),
+              label: Text('speed'))),
       floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text('add'),
